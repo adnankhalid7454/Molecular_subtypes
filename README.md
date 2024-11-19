@@ -21,7 +21,7 @@
 
 Ensure you have the following prerequisites installed:
 - Python 3.8
-- TensorFlow 2.2
+- TensorFlow 2.14.0
 
 ## Contributing
 We welcome contributions to this repository. If you have suggestions or improvements, please contact.
