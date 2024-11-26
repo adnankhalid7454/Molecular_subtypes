@@ -37,5 +37,3 @@ All experiments conducted as part of this research utilize our private in-house 
 ### Protection of Personal Data
 Our data handling practices adhere to the highest standards of personal data protection, in compliance with Article 7.1 of the Organic Law 15/1999. We ensure that all personal information is securely managed and accessed only by authorized personnel involved in the research.
 
-$$License
-See LICENSE for more information.
