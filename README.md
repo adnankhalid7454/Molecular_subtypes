@@ -3,12 +3,17 @@
  This repository contains the implementation of our DL method for Breast Mass Segmentation, feature extraction methods and advanced machine-learning techniques for classifying breast cancer subtypes.
 
 ## Key Highlights
+- **Boundary-Aware Deep Autoencoder**
+  - Designed a deep autoencoder with guided skip connections to accurately detect tumor boundaries and significantly reduce segmentation errors.
+- **Advanced Feature Extraction**
+  - Extracted novel morphological and radiomic features from accurately segmented tumor regions to predict molecular subtypes.
+- **Comprehensive Correlation Analysis**
+  - Conducted detailed analyses to identify correlations between tumor shape, margin characteristics, radiomic patterns, and BC molecular subtypes.
+- **High-Accuracy ML Framework**
+  - Built a sophisticated machine learning framework achieving highly accurate classification of BC molecular subtypes.
+- **Clinical Applicability**
+  - Demonstrated the effectiveness of image-derived biomarkers for non-invasive breast cancer subtype identification, reducing reliance on invasive biopsies.
 
-Developed a boundary-aware deep autoencoder with guided skip connections to precisely detect tumor boundaries and significantly reduce segmentation errors in mammograms.
-• Extracted novel morphological and radiomics feature combinations from precisely segmented tumor regions to assess tumor molecular subtype.
-• Performed comprehensive analyses to correlate tumor shape, margin characteristics, and radiomic patterns with BC molecular subtypes.
-• A sophisticated ML framework for highly accurate classification of BC molecular subtypes.
-• Demonstrated the clinical applicability of image-derived biomarkers for non-invasive BC subtype identification, reducing reliance on invasive biopsies.
 
 ## Repository Structure
 
