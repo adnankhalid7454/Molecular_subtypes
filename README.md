@@ -4,10 +4,11 @@
 
 ## Key Highlights
 
-- **Custom U-Net-Based Autoencoder:** Developed a custom U-Net-based autoencoder with boundary-guided skip connections. This approach enhances tumor boundary detection, significantly reducing segmentation inaccuracies from the boundaries.
-- **Feature Extraction:** Extracted novel combinations of morphological and radiomics features from accurately segmented tumor regions, facilitating detailed assessments of tumor aggressiveness and molecular subtype.
-- **Comprehensive Analyses:** Performed comprehensive analyses correlating tumor shape, margins, and radiomics to breast cancer molecular subtypes.
-- **Sophisticated ML Framework:** Developed a sophisticated machine learning framework for highly accurate classification of breast cancer molecular subtypes.
+Developed a boundary-aware deep autoencoder with guided skip connections to precisely detect tumor boundaries and significantly reduce segmentation errors in mammograms.
+• Extracted novel morphological and radiomics feature combinations from precisely segmented tumor regions to assess tumor molecular subtype.
+• Performed comprehensive analyses to correlate tumor shape, margin characteristics, and radiomic patterns with BC molecular subtypes.
+• A sophisticated ML framework for highly accurate classification of BC molecular subtypes.
+• Demonstrated the clinical applicability of image-derived biomarkers for non-invasive BC subtype identification, reducing reliance on invasive biopsies.
 
 ## Repository Structure
 
