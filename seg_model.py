@@ -180,3 +180,4 @@ def seg_model():
     
     model = Model(inputs=[inputs], outputs=[conv10])
     return model
+
