@@ -2,6 +2,7 @@ import cv2
 import numpy as np
 import os
 
+
 def post_process_mask(predicted_mask, threshold=0.5, kernel_size=(5, 5)):
     _, binary_mask = cv2.threshold(predicted_mask, threshold, 255, cv2.THRESH_BINARY)
     kernel = np.ones(kernel_size, np.uint8)
