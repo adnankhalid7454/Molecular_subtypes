@@ -63,3 +63,4 @@ def plot_augmented_images_and_masks(images, masks):
     plt.tight_layout()
     plt.show()
 # plot_augmented_images_and_masks(augX, augY)
+
