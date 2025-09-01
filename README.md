@@ -1,33 +1,31 @@
-# Breast Cancer Molecular Subtypes Classifcation
+# Breast Cancer Molecular Subtypes Classification
 
- This repository contains the implementation of our DL method for Breast Mass Segmentation, feature extraction methods and advanced machine-learning techniques for classifying breast cancer subtypes.
+This repository implements a deep learning based framework for breast mass segmentation and molecular subtype classification. It uses a boundary aware autoencoder with guided skip connections to delineate tumor margins, extracts morphological and radiomic features, analyzes correlations between shape, margins, and radiomic patterns, and applies a high accuracy machine learning pipeline such as CatBoost for noninvasive subtype prediction.
 
-## Key Highlights
-- **Boundary-Aware Deep Autoencoder**
-  - Designed a deep autoencoder with guided skip connections to accurately detect tumor boundaries and significantly reduce segmentation errors.
-- **Advanced Feature Extraction**
-  - Extracted novel morphological and radiomic features from accurately segmented tumor regions to predict molecular subtypes.
-- **Comprehensive Correlation Analysis**
-  - Conducted detailed analyses to identify correlations between tumor shape, margin characteristics, radiomic patterns, and BC molecular subtypes.
-- **High-Accuracy ML Framework**
-  - Built a sophisticated machine learning framework achieving highly accurate classification of BC molecular subtypes.
-- **Clinical Applicability**
-  - Demonstrated the effectiveness of image-derived biomarkers for non-invasive breast cancer subtype identification, reducing reliance on invasive biopsies.
-
+Model weights are available [here](https://zenodo.org/records/17014860).
 
 ## Repository Structure
 
-- `seg_model.py` - Contains the segmentation model with all required modules.
-- `training.py` - Used to run the experiments for training the models.
-- `morphological_feature_extraction.py` - Functions to extract morphological features from the tumor region.
-- `texture_features_extraction.py` - Functions to extract different texture features.
-- `ml_pipeline.py` - Utilizes the extracted features to classify tumor shape, margins, and molecular subtypes.
+* `seg_model.py`: segmentation model with all required modules  
+* `seg_pred.py`: run segmentation tests and save predicted masks  
+* `morphological_feature_extraction.py`: compute morphological features from tumor masks  
+* `texture_features_extraction.py`: compute texture and radiomic features  
+* `Subtype_Classifcation.py`: load the saved CatBoost model and predict molecular subtypes  
+* `Saved_Model/`: saved classifier models trained on extracted features
 
+---
 ## Setup and Installation
+**Prerequisites**
 
+* Python 3.8  
+* TensorFlow 2.14.0  
+* Recommended Python packages: numpy, scikit learn, opencv python, catboost, matplotlib
+
+**Install**
 Ensure you have the following prerequisites installed:
 - Python 3.8
 - TensorFlow 2.14.0
+- pip install tensorflow==2.14.0 numpy scikit-learn opencv-python catboost matplotlib
 
 ## Contributing
 We welcome contributions to this repository. If you have suggestions or improvements, please contact.
