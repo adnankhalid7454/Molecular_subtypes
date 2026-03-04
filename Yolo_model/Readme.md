@@ -1,8 +1,8 @@
-# Trained YOLO Model (Ultralytics)
+#### Trained YOLO Model (Ultralytics)
 
 This repository provides a trained Ultralytics YOLO detection model.
 
-## Requirements
+##### Requirements
 
 - Python 3.9 or newer recommended
 - Ultralytics package
@@ -11,7 +11,7 @@ Install Ultralytics:
 ```bash
 pip install ultralytics
 ```
-### Prepare the dataset YAML 
+##### Prepare the dataset YAML 
 Make sure dataset.yaml exists in the repository root and points to your dataset.
 ```bash
 Example dataset.yaml:
@@ -26,7 +26,7 @@ names:
 Notes:
 path can be absolute or relative.
 
-### Validation script
+##### Validation script
 
 ```bash
 from ultralytics import YOLO
@@ -51,7 +51,7 @@ if __name__ == "__main__":
     )
 ```
 
-#### Outputs
+###### Outputs
 
 When plots=True, Ultralytics typically saves:
  - confusion matrix
